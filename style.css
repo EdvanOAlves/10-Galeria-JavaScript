@@ -17,8 +17,6 @@ body{
 
 .galeria div{
     position: relative;
-    place-items: center;
-    place-content: center;
 }
 
 div p {
