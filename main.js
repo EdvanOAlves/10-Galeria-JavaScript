@@ -1,6 +1,39 @@
 "use strict"
 
 const images = [
+    {
+        nome: 'Imagem Harpia',
+        url: './img/aguia-harpia.jpeg'
+    },
+    {
+        nome: 'Imagem Arara Azul',
+        url: './img/arara-azul.webp'
+    },
+    {
+        nome: 'Imagem Arbutre Barbudo',
+        url: './img/arbutre-barbudo.jpg'
+    },
+    {
+        nome: 'Imagem Bem te vi',
+        url: './img/bem-te-vi.jpg'
+    },
+    {
+        nome: 'Imagem Coruja',
+        url: './img/coruja.jpeg'
+    },
+    {
+        nome: 'Imagem Maria Aninha',
+        url: './img/marianinha.jpg'
+    },
+    {
+        nome: 'Imagem Tucano Toco',
+        url: './img/tucano.jpg'
+    },
+    {
+        nome: 'Imagem Urutau',
+        url: './img/urutau.jpg'
+    }
+
 ]
 
 
@@ -8,7 +41,7 @@ function criarImagem(srcImage) {
     const galeria = document.getElementById('galeria')
 
     const image = document.createElement('img')
-    image.src = srcImage
+    image.src = srcImage.url
     galeria.appendChild(image)
 }
 
