@@ -1,4 +1,5 @@
 "use strict"
+const galeria = document.getElementById('galeria')
 
 const images = [
     {
@@ -38,11 +39,15 @@ const images = [
 
 
 function criarImagem(srcImage) {
-    const galeria = document.getElementById('galeria')
-
+    const containerDiv = document.createElement('div')
     const image = document.createElement('img')
+    const nameParagraph = document.createElement('p')
     image.src = srcImage.url
-    galeria.appendChild(image)
+    nameParagraph.textContent = srcImage.nome
+
+    galeria.appendChild(containerDiv)
+    containerDiv.appendChild(image)
+    containerDiv.appendChild(nameParagraph)
 }
 
 function loadImages() {
