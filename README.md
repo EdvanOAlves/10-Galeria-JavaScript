@@ -5,7 +5,6 @@ Projeto de galeria desenvolvido como uma introdução ao acesso de imagens utili
 ## Layout
 
 ![](./preview/PreviewDesktop.png)
-![alt text](image.png)
 
 ## Tecnologias utilizadas:
 
