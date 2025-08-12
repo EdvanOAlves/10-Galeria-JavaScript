@@ -3,35 +3,35 @@ const galeria = document.getElementById('galeria')
 
 const images = [
     {
-        nome: 'Imagem Harpia',
+        nome: 'Harpia',
         url: './img/aguia-harpia.jpeg'
     },
     {
-        nome: 'Imagem Arara Azul',
+        nome: 'Arara Azul',
         url: './img/arara-azul.webp'
     },
     {
-        nome: 'Imagem Arbutre Barbudo',
+        nome: 'Arbutre Barbudo',
         url: './img/arbutre-barbudo.jpg'
     },
     {
-        nome: 'Imagem Bem te vi',
+        nome: 'Bem te vi',
         url: './img/bem-te-vi.jpg'
     },
     {
-        nome: 'Imagem Coruja',
+        nome: 'Coruja',
         url: './img/coruja.jpeg'
     },
     {
-        nome: 'Imagem Maria Aninha',
+        nome: 'Marianinha',
         url: './img/marianinha.jpg'
     },
     {
-        nome: 'Imagem Tucano Toco',
+        nome: 'Tucano Toco',
         url: './img/tucano.jpg'
     },
     {
-        nome: 'Imagem Urutau',
+        nome: 'Urutau',
         url: './img/urutau.jpg'
     }
 
